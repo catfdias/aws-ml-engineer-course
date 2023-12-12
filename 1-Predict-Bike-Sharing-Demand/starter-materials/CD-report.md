@@ -38,7 +38,7 @@ In the hyperparameter tuning iterations the performance of the models decreased.
 ### If you were given more time with this dataset, where do you think you would spend more time?
 If I had more time with this dataset, I would try to understand in more detail the different hyperparameters can AutoGluon offers (both AutoGluon higher level parameters and the individual model hyperparameters) and tune them in order to improve the performance. Given that the top models in all iterations were Weighted Ensemble models, I would invest more time trying to understand how I can tune these models and increase the running time limits of AutoGluon.
 
-### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
+### Table describing the model iteartions: the hyperparameters modified, and the kaggle score.
 |model|algorithm|hpo1|hpo2|hpo3|hpo4|score|
 |--|--|--|--|--|--|--|
 |initial|Weighted Ensemble L3|use_orig_features:False|max_base_models: 25|max_base_models_per_type: 5|save_bag_folds: True|1.33|
