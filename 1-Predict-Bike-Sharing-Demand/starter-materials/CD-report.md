@@ -54,14 +54,10 @@ If I had more time with this dataset, I would try to understand in more detail t
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-Goal of this project
 In this project we developed a model to predict bike sharing demand combining historical usage patterns with weather data. It is important to accurately estimate the demand of bike rentals so that the companies responsible can effeciently manage the bike stocks and improve customer experience.
 
-Data exploratory analysis conclusions
 The demand of bike rentals is highly correlated with weather conditions and rush hours. As expected, the demand is higher during warm seasons (summer and fall) and during rush hours (7h-9h and 17h-19h) for commuting from home to work and vice versa.
 
-Achievements
 The model with better performance was an Weighted Ensemble L3 model that achieved a MSE of 0.50.
 
-Future improvements
 There is still a lot of space for improvement specially in feature engineering and hyperparameter tuning. During hyperparameter tuning experiences, there was not an improvement in the model performance so the hyperparameters can be further optimized and other algorithms can be tested.
