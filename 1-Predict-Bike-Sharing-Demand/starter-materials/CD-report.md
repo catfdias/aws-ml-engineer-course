@@ -45,15 +45,11 @@ If I had more time with this dataset, I would try to understand in more detail t
 |add_features|Weighted Ensemble L3|use_orig_features:False|max_base_models: 25|max_base_models_per_type: 5|save_bag_folds: True|0.50|
 |hpo|Weighted Ensemble L2|use_orig_features:False|max_base_models: 25|max_base_models_per_type: 5|save_bag_folds: True|1.27|
 
-### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top model score for the three training runs during the project.
 
 ![model_train_score.png](model_train_score.png)
 
-### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top kaggle score for the three prediction submissions during the project.
 
 ![model_test_score.png](model_test_score.png)
 
